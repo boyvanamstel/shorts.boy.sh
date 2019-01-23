@@ -14,7 +14,7 @@ upload_dir: assets/blog
 public_path: "/assets/blog"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":year:-:month:-:day:-:hour:-:minute:-:title:.md"
+file_template: ":year:-:month:-:day:-:filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
   publish_command: bundle exec jekyll build -d _site
