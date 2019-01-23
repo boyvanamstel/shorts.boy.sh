@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:year/:month/:day/:title
 url: "https://shorts.boy.sh" # the base hostname & protocol for your site, e.g. http://example.com
-author: Boy
+author: Boy 🛸
 avatar: /assets/img/avatar.jpg
 twitter_username: boyvanamstel
 github_username: boyvanamstel
