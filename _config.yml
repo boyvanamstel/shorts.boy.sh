@@ -20,9 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /:year/:month/:day/:title
 url: "https://shorts.boy.sh" # the base hostname & protocol for your site, e.g. http://example.com
+author: Boy
+avatar: /assets/img/avatar.jpg
 twitter_username: boyvanamstel
 github_username: boyvanamstel
-microdotblog_username: boyvanamstel
+microblog_username: boyvanamstel
 google_analytics: UA-7720147-37
 
 # Build settings
@@ -36,7 +38,6 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-assets

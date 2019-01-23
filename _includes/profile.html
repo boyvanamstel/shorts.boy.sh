@@ -1,0 +1,11 @@
+<div class="profile">
+  <section id="wrapper">
+    <header class="h-card">
+      <a class="u-url" href="{{ "/" | relative_url  }}about">
+        <img id="avatar" src="{{ site.avatar }}"/>
+      </a>
+      <h1 class="p-name" rel="me">{% if page.url == '/' %}{{ site.title }}{% else %}{{ site.author }}{% endif %}</h1>
+      <h4 class="p-role">{{ site.description }}</h4>
+    </header>
+  </section>
+</div>

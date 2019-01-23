@@ -1,13 +1,3 @@
-GIT
-  remote: https://github.com/jekyll/minima
-  revision: 70aaede1c076e1ce847083a54585031e103f9dc7
-  branch: master
-  specs:
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -142,10 +132,9 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   mini_magick
-  minima!
   octopress-minify-html
   rouge
   tzinfo-data
 
 BUNDLED WITH
-   1.17.1
+   1.17.2

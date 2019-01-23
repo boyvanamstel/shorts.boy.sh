@@ -1,0 +1,12 @@
+<nav class="main-nav">
+  {% if page.url != "/" %}
+  <a class="normal" href="{{ "/" | relative_url  }}"> <span class="arrow">←</span> Home</a>
+  {% endif %}
+
+  {% assign sorted_pages = site.pages | sort: "order" %}
+  {% for page in sorted_pages %}
+  {% if page.title and page.navigation %}
+  <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  {% endif %}
+  {% endfor %}
+</nav>
