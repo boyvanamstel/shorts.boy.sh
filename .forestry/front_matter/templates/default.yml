@@ -8,3 +8,5 @@ fields:
   label: Title
   config:
     required: false
+pages:
+- _posts/test.md
