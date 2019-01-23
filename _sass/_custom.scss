@@ -1,0 +1,152 @@
+body {
+  display: block;
+}
+
+.site-title {
+  line-height: $base-line-height * $base-font-size * 2.25;
+}
+
+.tags-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.image-inline {
+  @media screen and (min-width: $on-laptop) {
+    max-width: 20vw;
+  }
+  &--center {
+    display: block;
+    margin: 0 auto;
+  }
+  &--left {
+    float: left;
+  }
+  &--right {
+    float: right;
+  }
+}
+
+.apps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &-entry {
+    margin: 1rem 0;
+    &:last {
+      margin-bottom: 0;
+      &:last {
+        margin-bottom: 0;
+      }
+      &__link {
+        margin-bottom: 1rem;
+        &-image {
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+    &:not(:last-child) {
+      border-bottom: #eee 1px solid;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    &__icon {
+      text-align: center;
+    }
+
+    @media screen and (min-width: $on-laptop) {
+      display: grid;
+      grid-column-gap: 2rem;
+      grid-template-columns: 128px auto;
+      grid-template-rows: auto;
+
+      &__icon {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+      }
+
+      &__title {
+        grid-column: 2;
+        grid-row: 1;
+      }
+
+      &__description {
+        grid-column: 2;
+        grid-row: 2;
+      }
+    }
+  }
+}
+
+.highlight {
+  pre, code {
+    background: none;
+    border: none;
+    padding: 0;
+
+    table {
+      margin: 0;
+      color: inherit;
+      border: none;
+
+      td {
+        border: none;
+      }
+
+      td:first-child {
+        border-right: #e8e8e8 1px solid;
+      }
+
+      .rouge-gutter {
+        width: 1em;
+      }
+
+      pre {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+div.highlight {
+  border-radius: 3px;
+}
+.highlighter-rouge {
+  background: none;
+}
+
+.home .post-list > li {
+  border-bottom: #eee 1px solid;
+  padding: 30px 0;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.post-link {
+  @include relative-font-size(2);
+}
+.post-content {
+  font-size: 20px;
+}
+
+@media screen and (min-width: $on-large) {
+  .footer-col-1 {
+    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+    width:         calc(25% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-2 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-3 {
+    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
+    width:         calc(45% - (#{$spacing-unit} / 2));
+  }
+}
