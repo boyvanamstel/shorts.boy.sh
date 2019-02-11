@@ -19,6 +19,7 @@ fields:
   config:
     required: false
 pages:
+- _posts/2019-02-11-uiimagecolors-macos.md
 - _posts/2019-01-29-resident-evil-2-remake.md
 - _posts/2019-01-23-forestry.md
 - _posts/2019-01-24-issuehunt.md
