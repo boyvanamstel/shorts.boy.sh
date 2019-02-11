@@ -25,7 +25,7 @@ avatar: /assets/img/avatar.jpg
 twitter_username: boyvanamstel
 github_username: boyvanamstel
 microblog_username: boyvanamstel
-google_analytics: UA-7720147-37
+google_analytics: #UA-7720147-37
 
 # Build settings
 markdown: kramdown
