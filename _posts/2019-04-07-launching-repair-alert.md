@@ -14,7 +14,7 @@ Here are the numbers 24 hours after launching:
 
 * 383 subscribers (mostly through MacWelt)
 * 68 upvotes on [Product Hunt](https://www.producthunt.com/posts/repair-alert) (could be better)
-* no clue about visitor numbers (I removed analytics from every site I own)
+* no clue about visitor numbers (I removed analytics all my sites)
 
 MacWelt told us they had about 1.900 views on their article. That means the conversion rate is pretty much off the charts. It actually worries me a little what could happen if more sites decide to do a story. If we cross 2.000 subscribers MailChimp starts to get quite expensive for a project that currently does not have a revenue model. I guess we'll deal with that when it happens.
 
