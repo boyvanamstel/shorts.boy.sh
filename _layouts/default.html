@@ -23,6 +23,8 @@
     <link rel="alternate" type="application/rss+xml" title="Podcast" href="{{ "/podcast.xml" | prepend: site.baseurl | prepend: site.url }}" />
     {% endif %}
 
+    {% seo %}
+
     {% if site.twitter_username != "" %}
     <link rel="me" href="https://twitter.com/{{ site.twitter_username }}" />
     {% endif %}
