@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Tech
-permalink: /tech/
+title: More 
+permalink: /more/
 navigation: true
 order: 5
 ---
-If you're looking for more in-depth articles about tech, games, movies and music head over to [tech.boy.sh](https://tech.boy.sh). Here's a short preview.
+If you're looking for more in-depth articles about tech, games, movies and music head over to [posts.boy.sh](https://posts.boy.sh). Here's a short preview.
 
 ---
 
