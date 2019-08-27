@@ -12,3 +12,9 @@
 .pagination div:last-child {
   text-align: right;
 }
+
+#post-list li {
+  border-bottom: 1px solid #dadadc;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
