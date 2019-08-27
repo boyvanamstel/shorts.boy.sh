@@ -26,6 +26,7 @@
 <!-- Pagination links -->
 <div class="pagination flex-grid-thirds">
   <div class="col">
+    <p>
     {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">
       Newer 
@@ -33,17 +34,18 @@
     {% else %}
     <span class="previous">Newer</span>
     {% endif %}
+    </p>
   </div>
   <div class="col">
-    <span class="page_number ">
-      Page {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
+    <p class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</p>
   </div>
   <div class="col">
+    <p>
     {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Older</a>
     {% else %}
     <span class="next ">Older</span>
     {% endif %}
+    </p>
   </div>
 </div>

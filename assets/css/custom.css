@@ -13,6 +13,10 @@
   text-align: right;
 }
 
+#post-list {
+  margin-bottom: 1em;
+}
+
 #post-list li {
   border-bottom: 1px solid #dadadc;
   margin-bottom: 2em;
