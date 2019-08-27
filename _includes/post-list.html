@@ -1,5 +1,5 @@
 <ul id="post-list">
-  {% for post in site.posts limit:25 %}
+  {% for post in paginator.posts %}
   <li>
     <article>
       {% if post.microblog == true %}
@@ -21,6 +21,30 @@
       </a>
     </article>
   </li>
-  <span class="separator"><span class="divider"></span></span>
   {% endfor %}
 </ul>
+<span class="separator"><span class="divider"></span></span>
+<!-- Pagination links -->
+<div class="pagination flex-grid-thirds">
+  <div class="col">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Newer 
+    </a>
+    {% else %}
+    <span class="previous">Newer</span>
+    {% endif %}
+  </div>
+  <div class="col">
+    <span class="page_number ">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+  </div>
+  <div class="col">
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+    {% else %}
+    <span class="next ">Older</span>
+    {% endif %}
+  </div>
+</div>

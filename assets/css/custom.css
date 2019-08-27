@@ -1,0 +1,14 @@
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-thirds .col {
+  width: 32%;
+}
+
+.pagination div:nth-child(2) {
+  text-align: center;
+}
+.pagination div:last-child {
+  text-align: right;
+}

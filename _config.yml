@@ -27,6 +27,9 @@ github_username: boyvanamstel
 microblog_username: boyvanamstel
 google_analytics: #UA-7720147-37
 
+paginate: 5
+paginate_path: "/page/:num"
+
 # Build settings
 markdown: kramdown
 kramdown:
@@ -43,6 +46,7 @@ plugins:
   - jekyll-assets
   - octopress-minify-html
   - jekyll-sitemap
+  - jekyll-paginate
 include:
   - _redirects
 
