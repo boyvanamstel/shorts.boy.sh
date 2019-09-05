@@ -17,7 +17,7 @@
   margin-bottom: 1em;
 }
 
-#post-list li {
+#post-list > li {
   border-bottom: 1px solid #dadadc;
   margin-bottom: 2em;
   padding-bottom: 2em;
