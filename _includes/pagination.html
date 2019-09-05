@@ -12,11 +12,11 @@
     {% endif %}
   </span>
   {% endif %}
-{% if paginator.next_page %}
-<span class="next">
-  <a href="{{ paginator.next_page_path }}">
-    Older Posts <span class="arrow">→</span>
-  </a>
-</span>
-{% endif %}
+  {% if paginator.next_page %}
+  <span class="next">
+    <a href="{{ paginator.next_page_path }}">
+      Older Posts <span class="arrow">→</span>
+    </a>
+  </span>
+  {% endif %}
 </nav>
