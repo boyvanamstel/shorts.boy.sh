@@ -10,7 +10,7 @@ It's hard to describe how good this kind of coverage feels. _You can enjoy using
 
 The extra attention has increased downloads by a lot, which is good. I also got some more feedback, which is great. 
 
-At some point I will need to implement some form of monetization though. With most other apps it feels natural to lock some features behind an in-app purchase, or limit use after a set period of time.
+At some point I will need to implement a form of monetization though. With most other apps it feels natural to lock some features behind an in-app purchase, or limit use after a set period of time.
 
 Timeless tries to alter your behavior, limiting features might stop that from happening, reducing the chance of someone actually purchasing the app to zero.
 
