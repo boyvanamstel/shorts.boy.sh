@@ -16,4 +16,4 @@ Timeless tries to alter your behavior, limiting features might stop that from ha
 
 On the other hand, making the app paid-upfront prevents someone from experiencing first hand the sense of freedom the app promotes. I would have to sell the app purely on its story and experiences from others. That's tough.
 
-I'm leaning towards pro-features with an in-app purchase. I could add advanced scheduling, or make the clock that appears when idle a paid option. Limit the amount of segments you can define without the pro IAP. If you have suggestions, [I'm all ears](https://www.twitter.com/boyvanamstel).
+I'm leaning towards pro-features with an in-app purchase. I could add advanced scheduling, make the clock that appears when idle a paid option, allow more fine grained segment control with the pro package. If you have suggestions, [I'm all ears](https://www.twitter.com/boyvanamstel).
