@@ -22,3 +22,22 @@
   margin-bottom: 2em;
   padding-bottom: 2em;
 }
+
+.button {
+  display: inline-block !important;
+  padding: 0.15em 0.5em !important;
+  border-radius: 3px;
+  box-shadow: none !important;
+}
+.button:hover {
+  text-decoration: none !important;
+}
+
+.is-dark {
+  background-color: #666 !important;
+  color: #fff !important;
+
+}
+.is-dark:hover {
+  background-color: #444 !important;
+}
