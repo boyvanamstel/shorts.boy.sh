@@ -1,0 +1,93 @@
+$app-color: #2A7AE2;
+$app-color-inverted: #fff;
+
+.app {
+  border: $app-color 1px solid;
+  border-radius: 3px;
+
+  padding: 1rem;
+  margin-bottom: 2rem;
+
+  background-image: linear-gradient(135deg, transparent 80%, rgba($app-color, 0.25) 80%, rgba($app-color, 0.25) 85%, rgba($app-color, 0.5) 85%, rgba($app-color, 0.5) 90%, rgba($app-color, 0.75) 90%, rgba($app-color, 0.75) 95%, transparent 95%);
+
+  &-notice {
+    &__text { 
+      color: $app-color;
+      font-size: 0.7rem; 
+    }
+  }
+
+  &-icon { 
+    order: 2;
+    margin-bottom: 1rem; 
+    text-align: center;
+
+    &__image {
+      max-width: 128px;
+      display: inline;
+    }
+  }
+
+  &-content {
+    order: 1;
+
+    &-header {
+      margin: 1rem 0;
+      font-size: 2rem;
+
+      &__title { font-weight: bold; }
+      &__subtitle { font-style: italic; }
+    }
+
+    &-body { 
+      margin-bottom: 2rem; 
+
+      *:last-child { margin-bottom: 0; }
+    }
+
+    &-actions {
+      &__button {
+        display: inline-block;
+
+        padding: 0.5rem 1rem;
+        margin-right: 0.5rem;
+        border-radius: 3px;
+        text-decoration: none;
+
+        &:hover,&:visited,&:active {
+          text-decoration: none;
+        }
+
+        &:last-child { margin-right: 0; }
+
+        &--primary {
+          color: $app-color-inverted;
+          background-color: rgba($app-color,0.9);
+
+          &:hover,&:visited,&:active { 
+            color: $app-color-inverted;
+            background-color: $app-color; 
+          }
+        }
+
+        &--text {
+          background-color: none;
+          color: rgba($app-color,0.8);
+
+          &:hover,&:visited,&:active { 
+            color: $app-color;
+            background-color: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .app-container {
+    display: grid;
+    grid-template-columns: 1fr 128px;
+    grid-gap: 1rem;
+  }
+}
