@@ -11,7 +11,10 @@ layout: default
   </section>
 </article>
 
-{% include app.html %}
+{% unless page.noapps %}
+{% assign app=site.data.apps | sample %}
+{% include app.html app=app %}
+{% endunless %}
 
 <section id="post-meta" class="clearfix">
   <a href="/">

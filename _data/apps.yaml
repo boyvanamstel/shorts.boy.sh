@@ -1,0 +1,39 @@
+- icon: Timeless.png
+  alt: "Timeless' app icon"
+  link: https://www.usetimeless.app
+  title: Timeless
+  subtitle: Reduce time anxiety
+  get: https://www.usetimeless.app/get
+  description: "A replacement for the clock on your Mac that reduces time pressure and distraction. Get a more subtle sense of what time it is."
+
+- icon: Pipvid.png
+  alt: "Pipvid's app icon"
+  link: https://www.dangercove.com/pipvid
+  title: Pipvid 
+  subtitle: Snaps videos to any corner
+  get: https://www.dangercove.com/pipvid/get
+  description: "Adds a picture-in-picture mode to VLC and QuickTime. Ideal for watching videos in the corner of your screen while you work on something else."
+
+- icon: Carbonize.png
+  alt: "Carbonize's app icon"
+  link: https://www.dangercove.com/carbonize
+  title: Carbonize 
+  subtitle: Beautiful images of code
+  get: https://www.dangercove.com/carbonize/get
+  description: "Generate gorgeous, highly customizable images from your code snippets. Ready to save or share."
+
+- icon: Relax.png
+  alt: "Relax' app icon"
+  link: https://www.dangercove.com/relax
+  title: Relax 
+  subtitle: Mutes internal speakers
+  get: https://www.dangercove.com/relax/get
+  description: "Relax automatically mutes your internal speakers and pauses music apps when you disconnect headphones."
+
+- icon: Denied.png
+  alt: "Denied's app icon"
+  link: https://www.denied.app
+  title: Denied 
+  subtitle: Skips terrible music
+  get: https://www.denied.app/get
+  description: "Denied saves your ears from Nickelback or any other band, song or album. It sees what you're playing and automatically skips songs that you dislike."

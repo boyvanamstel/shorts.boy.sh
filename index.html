@@ -4,5 +4,10 @@ profile: true
 regenerate: true
 ---
 
-{% include app.html %}
+{% assign app=site.data.apps | sample %}
+{% include app.html app=app %}
+
 {% include post-list.html %}
+
+{% assign app=site.data.apps | sample %}
+{% include app.html app=app %}

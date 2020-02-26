@@ -12,11 +12,13 @@ layout: default
     </h2>
   </header>
 
-  {% include app.html %}
-
   <section class="e-content post-body">
     {{content}}
   </section>
+
+  {% assign app=site.data.apps | sample %}
+  {% include app.html app=app %}
+
 </article>
 <section id="post-meta" class="clearfix">
   <a href="/">

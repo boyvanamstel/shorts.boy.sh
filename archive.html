@@ -6,6 +6,9 @@ order: 10
 navigation: true
 ---
 
+{% assign app=site.data.apps | sample %}
+{% include app.html app=app %}
+
 <div class="h-feed">
 
 {% for post in site.posts %}
@@ -22,3 +25,6 @@ navigation: true
 {% endfor %}
 
 </div>
+
+{% assign app=site.data.apps | sample %}
+{% include app.html app=app %}

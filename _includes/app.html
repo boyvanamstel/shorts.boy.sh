@@ -1,21 +1,22 @@
+{% assign app = include.app %}
 <div class="app">
   <div class="app-notice">
-    <p class="app-notice__text">I make apps, consider taking a look 👇</p>
+    <p class="app-notice__text"><a href="https://www.dangercove.com">I make apps</a>, consider taking a look 👇</p>
   </div>
   <div class="app-container">
     <figure class="app-icon">
-      <img class="app-icon__image" src="/assets/img/Timeless.png" alt="Timeless' app icon">
+      <img class="app-icon__image" src="/assets/img/{{ app.icon }}" alt="{{ app.alt }}">
     </figure>
     <header class="app-header">
-      <p class="app-header__title"><a href="https://www.usetimeless.app">Timeless</a></p>
-      <p class="app-header__subtitle">Reduce time anxiety</p>
+      <p class="app-header__title"><a href="{{ app.link }}">{{ app.title }}</a></p>
+      <p class="app-header__subtitle">{{ app.subtitle }}</p>
     </header>
     <div class="app-actions">
-      <a class="app-actions__button app-actions__button--text" href="https://www.usetimeless.app/buy">Buy Now</a>
-      <a class="app-actions__button app-actions__button--primary" href="https://www.usetimeless.app">Read More</a>
+      <a class="app-actions__button app-actions__button--text" href="{{ app.link }}">Learn More</a>
+      <a class="app-actions__button app-actions__button--primary" href="{{ app.get }}">Get {{ app.title }}</a>
     </div>
     <div class="app-body">
-      <p class="app-body__text">A replacement for the clock on your Mac that reduces time pressure and distraction. Get a more subtle sense of what time it is.</p>
+      <p class="app-body__text">{{ app.description }}</p>
     </div>
   </div>
 </div>
