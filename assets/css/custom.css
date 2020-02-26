@@ -41,3 +41,8 @@
 .is-dark:hover {
   background-color: #444 !important;
 }
+
+.pagination,
+.h-feed {
+  margin-bottom: 2rem;
+}
