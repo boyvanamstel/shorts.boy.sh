@@ -3,6 +3,7 @@ layout: post
 title: Distracted by time
 date: 2019-07-19
 canonical_url: 'https://posts.boy.sh/distracted-by-time'
+apps: [timeless]
 ---
 
 _This is an excerpt from a post a published at [posts.boy.sh](https://posts.boy.sh/distracted-by-time)._

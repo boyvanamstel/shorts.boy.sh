@@ -4,6 +4,7 @@ title: Sponsor
 permalink: /sponsor/
 navigation: true
 order: -10
+apps: [carbonize]
 ---
 
 GitHub entered me into their sponsored developers program! 

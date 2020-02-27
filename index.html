@@ -2,12 +2,25 @@
 layout: default
 profile: true
 regenerate: true
+apps: [timeless, pipvid]
 ---
 
-{% assign app=site.data.apps | sample %}
+{% if page.apps[0] %}
+{% assign app_name=page.apps[0] %}
+{% else %}
+{% assign app_name=site.data.apps.names | sample %}
+{% endif %}
+
+{% assign app=site.data.apps[app_name] %}
 {% include app.html app=app %}
 
 {% include post-list.html %}
 
-{% assign app=site.data.apps | sample %}
+{% if page.apps[1] %}
+{% assign app_name=page.apps[1] %}
+{% else %}
+{% assign app_name=site.data.apps.names | sample %}
+{% endif %}
+
+{% assign app=site.data.apps[app_name] %}
 {% include app.html app=app %}

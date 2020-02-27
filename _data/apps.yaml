@@ -1,4 +1,7 @@
-- icon: Timeless.png
+names: [timeless, pipvid, carbonize, relax, denied]
+
+timeless:
+  icon: Timeless.png
   alt: "Timeless' app icon"
   link: https://www.usetimeless.app
   title: Timeless
@@ -6,7 +9,8 @@
   get: https://www.usetimeless.app/get
   description: "A replacement for the clock on your Mac that reduces time pressure and distraction. Get a more subtle sense of what time it is."
 
-- icon: Pipvid.png
+pipvid:
+  icon: Pipvid.png
   alt: "Pipvid's app icon"
   link: https://www.dangercove.com/pipvid
   title: Pipvid 
@@ -14,7 +18,8 @@
   get: https://www.dangercove.com/pipvid/get
   description: "Adds a picture-in-picture mode to VLC and QuickTime. Ideal for watching videos in the corner of your screen while you work on something else."
 
-- icon: Carbonize.png
+carbonize:
+  icon: Carbonize.png
   alt: "Carbonize's app icon"
   link: https://www.dangercove.com/carbonize
   title: Carbonize 
@@ -22,7 +27,8 @@
   get: https://www.dangercove.com/carbonize/get
   description: "Generate gorgeous, highly customizable images from your code snippets. Ready to save or share."
 
-- icon: Relax.png
+relax:
+  icon: Relax.png
   alt: "Relax' app icon"
   link: https://www.dangercove.com/relax
   title: Relax 
@@ -30,7 +36,8 @@
   get: https://www.dangercove.com/relax/get
   description: "Relax automatically mutes your internal speakers and pauses music apps when you disconnect headphones."
 
-- icon: Denied.png
+denied:
+  icon: Denied.png
   alt: "Denied's app icon"
   link: https://www.denied.app
   title: Denied 

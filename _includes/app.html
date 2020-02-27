@@ -1,4 +1,5 @@
 {% assign app = include.app %}
+{% if app %}
 <div class="app">
   <div class="app-notice">
     <p class="app-notice__text"><a href="https://www.dangercove.com">I make apps</a>, consider taking a look 👇</p>
@@ -12,7 +13,6 @@
       <p class="app-header__subtitle">{{ app.subtitle }}</p>
     </header>
     <div class="app-actions">
-      <a class="app-actions__button app-actions__button--text" href="{{ app.link }}">Learn More</a>
       <a class="app-actions__button app-actions__button--primary" href="{{ app.get }}">Get {{ app.title }}</a>
     </div>
     <div class="app-body">
@@ -20,3 +20,4 @@
     </div>
   </div>
 </div>
+{% endif %}

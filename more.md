@@ -4,6 +4,7 @@ title: More
 permalink: /more/
 navigation: true
 order: 5
+apps: [pipvid]
 ---
 If you're looking for more in-depth articles about tech, games, movies and music head over to [posts.boy.sh](https://posts.boy.sh). Here's a short preview.
 

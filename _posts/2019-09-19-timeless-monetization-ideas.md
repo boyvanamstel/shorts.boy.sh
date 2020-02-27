@@ -2,6 +2,7 @@
 layout: post
 title: ''
 date: 2019-09-19
+apps: [timeless]
 ---
 
 The [Timeless](https://www.usetimeless.app) Beta release was covered by [ifun.de](https://www.ifun.de/timeless-fuer-mac-eigenwillige-menueleistenuhr-gegen-zeitdruck-143380/) and mentioned on Jamie McHale's [solomentalhealth.com](https://www.solomentalhealth.com). 🥳

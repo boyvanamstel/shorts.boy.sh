@@ -2,6 +2,7 @@
 layout: post
 title: ''
 date: 2019-09-05
+apps: [pipvid]
 ---
 
 Sliders season four is starting off a lot better than I thought it would. Maybe it's because my expectations were so low, but I'm enjoying the first few episodes more than the ending of season three.

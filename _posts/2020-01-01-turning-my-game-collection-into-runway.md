@@ -2,6 +2,7 @@
 layout: post
 title: Funding my indie app company by selling my game collection
 date: 2020-01-01
+apps: [pipvid]
 ---
 
 I’ve been bootstrapping my [indie app business](https://www.dangercove.com) by selling stuff through ‘[Dutch Craigslist](https://www.marktplaats.nl)’ after the apps I had before stopped generating a sustainable income. That's been well over a year now.

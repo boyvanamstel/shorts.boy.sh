@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 navigation: true
 order: -1
+apps: [denied]
 ---
 
 Most of my days are spent writing code and designing apps. Primarily for the company that I founded in 2011, called [Danger Cove](http://www.dangercove.com). I make macOS apps like [Denied](https://www.denied.app), which protects your ears from bands like Nickelback.

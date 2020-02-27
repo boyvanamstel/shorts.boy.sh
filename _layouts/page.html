@@ -6,15 +6,20 @@ layout: default
   <header>
     <h1 class="p-name">{{ page.title }}</h1>
   </header>
+
   <section class="e-content post-body">
     {{content}}
   </section>
 </article>
 
-{% unless page.noapps %}
-{% assign app=site.data.apps | sample %}
+{% if page.apps[0] %}
+{% assign app_name=page.apps[0] %}
+{% else %}
+{% assign app_name=site.data.apps.names | sample %}
+{% endif %}
+
+{% assign app=site.data.apps[app_name] %}
 {% include app.html app=app %}
-{% endunless %}
 
 <section id="post-meta" class="clearfix">
   <a href="/">

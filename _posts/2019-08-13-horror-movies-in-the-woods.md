@@ -2,6 +2,7 @@
 layout: post
 title: ''
 date: 2019-08-13
+apps: [pipvid]
 ---
 
 I took our camper van out for a night in the woods this weekend. This sounds much more exiting than it is in the Netherlands. Imagine a simple campsite near a forested area. 🌲

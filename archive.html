@@ -4,27 +4,37 @@ title: Archive
 permalink: /archive/
 order: 10
 navigation: true
+apps: [relax, denied]
 ---
 
-{% assign app=site.data.apps | sample %}
+{% if page.apps[0] %}
+{% assign app_name=page.apps[0] %}
+{% else %}
+{% assign app_name=site.data.apps.names | sample %}
+{% endif %}
+
+{% assign app=site.data.apps[app_name] %}
 {% include app.html app=app %}
 
 <div class="h-feed">
-
-{% for post in site.posts %}
-	<p class="h-entry">
-		<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="u-url"><span class="dt-published" datetime="{{ post.date }}">{{ post.date | date: "%Y-%m-%d" }}</span></a>:
-
-		{% if post.microblog == false %}
-			<span class="p-name"><b>{{ post.title }}</b></span> 
-			<span class="p-summary">{{ post.content | strip_html | truncatewords: 10 }}</span>
-		{% else %}
-			<span class="p-summary">{{ post.content | strip_html | truncatewords: 10 }}</span>
-		{% endif %}
-	</p>
-{% endfor %}
-
+  {% for post in site.posts %}
+  <p class="h-entry">
+    <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="u-url"><span class="dt-published" datetime="{{ post.date }}">{{ post.date | date: "%Y-%m-%d" }}</span></a>:
+    {% if post.microblog == false %}
+    <span class="p-name"><b>{{ post.title }}</b></span>
+    <span class="p-summary">{{ post.content | strip_html | truncatewords: 10 }}</span>
+    {% else %}
+    <span class="p-summary">{{ post.content | strip_html | truncatewords: 10 }}</span>
+    {% endif %}
+  </p>
+  {% endfor %}
 </div>
 
-{% assign app=site.data.apps | sample %}
+{% if page.apps[1] %}
+{% assign app_name=page.apps[1] %}
+{% else %}
+{% assign app_name=site.data.apps.names | sample %}
+{% endif %}
+
+{% assign app=site.data.apps[app_name] %}
 {% include app.html app=app %}
