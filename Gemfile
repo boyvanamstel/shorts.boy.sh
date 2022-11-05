@@ -18,7 +18,6 @@ gem "jekyll"
 group :jekyll_plugins do
   gem "jekyll-feed"
   gem "octopress-minify-html"
-  gem "jekyll-assets"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-paginate"

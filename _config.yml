@@ -35,31 +35,11 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-  - jekyll-assets
   - octopress-minify-html
   - jekyll-sitemap
   - jekyll-paginate
 include:
   - _redirects
-
-# jekyll-assets
-assets:
-  prefix: "/assets"
-  digest: true
-  autoprefixer:
-    browsers:
-      - "last 2 versions"
-      - "IE > 9"
-  sources:
-    - _assets/css
-    - _assets/images
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/fonts
-    - _assets/img
-    - _assets/js
-  features:
-    automatic_img_size: false
 
 defaults:
   - scope:
