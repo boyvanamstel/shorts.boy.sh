@@ -8,7 +8,7 @@
       </section>
       {% else %}
       <header>
-        <h2><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}">{% if post.show_title == true %}{{ post.title }}{% endif %}</a></h2>
       </header>
       <section class="post-body">
         {{ post.content }}
