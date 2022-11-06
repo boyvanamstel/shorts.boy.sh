@@ -9,6 +9,7 @@ collections:
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{slug}} -- {{year}}/{{month}}/{{day}}'
     editor:
       preview: false
     fields:
