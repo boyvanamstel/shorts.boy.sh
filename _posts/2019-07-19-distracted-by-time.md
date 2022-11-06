@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Distracted by time
+show_title: true
 date: 2019-07-19
 canonical_url: 'https://posts.boy.sh/distracted-by-time'
 apps: [timeless]

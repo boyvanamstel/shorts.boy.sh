@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open source stuff I worked on this week
+show_title: true
 date: 2019-01-20 13:09:28.000000000 +01:00
 ---
 I recently came across [IssueHunt](https://issuehunt.io) and noticed a feature request in [Gifski](https://gif.ski) that I could work on. The PR hasn't been merged yet, so I can't say much about the entire process, but I like the idea of attaching a bounty to issues in open source projects.

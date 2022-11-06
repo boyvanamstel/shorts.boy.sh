@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IAP setting greyed out on developer.apple.com
+show_title: true
 date: 2018-12-05 12:05:33.000000000 +01:00
 ---
 I'm trying to enable In-App Purchases for [Relax](https://www.dangercove.com/relax), so I can implement the Tip Jar featured in the non-Mac App Store version. 🛠

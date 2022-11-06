@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Jurassic Games
+show_title: true
 date: 2019-01-10 10:14:23.000000000 +01:00
 ---
 If you think [The Jurassic Games](https://imdb.com/title/tt6710826) sounds like a movie worth seeing... then you're absolutely correct!

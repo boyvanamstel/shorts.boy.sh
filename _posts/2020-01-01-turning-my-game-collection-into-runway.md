@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Funding my indie app company by selling my game collection
+show_title: true
 date: 2020-01-01
 apps: [pipvid]
 ---
