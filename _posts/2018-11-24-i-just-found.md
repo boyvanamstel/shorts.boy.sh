@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ''
+microblog: true
 date: 2018-11-24 20:29:29.000000000 +01:00
 ---
 Pulling the left trigger while playing Layer Section on Sega Saturn toggles the HUD. This is amazing. 🎮

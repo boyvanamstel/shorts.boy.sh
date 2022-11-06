@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ''
+microblog: true
 date: 2018-12-13 15:05:16.000000000 +01:00
 ---
 With [Doom turning 25](https://www.techradar.com/news/gaming/doom-20-years-of-influencing-gaming-1205980), John Romero [announcing a new MEGAWAD called Sigil](https://www.theverge.com/2018/12/11/18135751/doom-sigil-the-ultimate-doom-5th-episode-mod-john-romero), while reading Fabian's [DOOM Game Engine Black Book](http://fabiensanglard.net/gebbdoom/) I'm pretty stoked about getting back into DOOM (again).

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ''
+microblog: true
 date: 2018-11-25 11:52:07.000000000 +01:00
 ---
 [Voultar](https://www.voultar.com)'s latest video shows his recommendation for a starter soldier station. I happened to be in the market for one of those and the KSGER T12 he highlights is only $49,99.

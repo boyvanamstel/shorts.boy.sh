@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ''
+microblog: true
 date: 2019-05-30 14:09:52 +0000
-
 ---
 I've merged tech.boy.sh, code.boy.sh and blog.boyvanamstel.nl all into [posts.boy.sh](https://posts.boy.sh).
 

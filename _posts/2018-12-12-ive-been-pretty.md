@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ''
+microblog: true
 date: 2018-12-12 10:40:10.000000000 +01:00
 ---
 I've been pretty lucky with my recent App Store releases. Usually when I submit my update before midday I could count on Apple's sign of approval the next morning.

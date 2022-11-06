@@ -1,6 +1,7 @@
 ---
 layout: post
 title: ''
+microblog: true
 date: 2019-08-07
 canonical_url: 'https://posts.boy.sh/fake-gba-carts'
 ---
