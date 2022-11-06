@@ -20,11 +20,11 @@ pipvid:
 
 carbonize:
   icon: Carbonize.png
-  alt: "Carbonize's app icon"
-  link: https://www.dangercove.com/carbonize
-  title: Carbonize 
+  alt: "Petrify's app icon"
+  link: https://www.dangercove.com/petrify
+  title: Petrify 
   subtitle: Beautiful images of code
-  get: https://www.dangercove.com/carbonize/get
+  get: https://www.dangercove.com/petrify/get
   description: "Generate gorgeous, highly customizable images from your code snippets. Ready to save or share."
 
 relax:
