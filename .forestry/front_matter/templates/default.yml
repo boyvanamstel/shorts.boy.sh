@@ -12,11 +12,28 @@ fields:
     required: true
   label: Layout
   default: post
+  hidden: true
 - type: text
   name: title
   label: Title
   config:
     required: false
+  showOnly:
+    field: microblog
+- name: microblog
+  type: boolean
+  label: Microblog
+  default: true
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
 pages:
 - _posts/2019-01-23-forestry.md
 - _posts/2019-01-24-issuehunt.md
