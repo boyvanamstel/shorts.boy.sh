@@ -34,6 +34,8 @@ fields:
     time_format: 
     display_utc: false
   default: now
+  showOnly:
+    field: microblog
 pages:
 - _posts/2019-01-23-forestry.md
 - _posts/2019-01-24-issuehunt.md
