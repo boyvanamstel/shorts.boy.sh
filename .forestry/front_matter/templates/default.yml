@@ -13,6 +13,10 @@ fields:
   label: Layout
   default: post
   hidden: true
+- name: microblog
+  type: boolean
+  label: Microblog
+  default: true
 - type: text
   name: title
   label: Title
@@ -20,10 +24,6 @@ fields:
     required: false
   showOnly:
     field: microblog
-- name: microblog
-  type: boolean
-  label: Microblog
-  default: true
 - name: date
   type: datetime
   label: Date
