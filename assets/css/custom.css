@@ -14,7 +14,13 @@
 }
 
 #post-list {
-  margin-bottom: 1em;
+  margin-bottom: 1em; 
+}
+
+#post-list > li:first-child {
+  border-top: 1px solid #dadadc;
+  margin-top: 2em;
+  padding-top: 2em;
 }
 
 #post-list > li {

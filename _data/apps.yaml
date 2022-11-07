@@ -19,7 +19,7 @@ pipvid:
   description: "Adds a picture-in-picture mode to VLC and QuickTime. Ideal for watching videos in the corner of your screen while you work on something else."
 
 carbonize:
-  icon: Carbonize.png
+  icon: Petrify.png
   alt: "Petrify's app icon"
   link: https://www.dangercove.com/petrify
   title: Petrify 
