@@ -1,13 +1,4 @@
-names: [timeless, pipvid, carbonize, relax, denied]
-
-timeless:
-  icon: Timeless.png
-  alt: "Timeless' app icon"
-  link: https://www.usetimeless.app
-  title: Timeless
-  subtitle: Reduce time anxiety and stay focused
-  get: https://www.usetimeless.app/get
-  description: "Timeless is a subtle clock replacement. It helps you feel less anxious about the time and more focused on how you should be spending it."
+names: [pipvid, carbonize, relax, denied]
 
 pipvid:
   icon: Pipvid.png
