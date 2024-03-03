@@ -1,4 +1,6 @@
-{% assign app = include.app %}
+{% assign fallback_name=site.data.apps.names | sample %}
+{% assign fallback_app=site.data.apps[fallback_name] %}
+{% assign app = include.app | default: fallback_app %}
 {% if app %}
 <div class="app">
   <div class="app-notice">
