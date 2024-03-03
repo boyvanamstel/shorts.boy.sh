@@ -1,13 +1,4 @@
-names: [pipvid, carbonize, relax, denied]
-
-pipvid:
-  icon: Pipvid.png
-  alt: "Pipvid's app icon"
-  link: https://www.dangercove.com/pipvid
-  title: Pipvid 
-  subtitle: Snaps videos to any corner
-  get: https://www.dangercove.com/pipvid/get
-  description: "Adds a picture-in-picture mode to VLC and QuickTime. Ideal for watching videos in the corner of your screen while you work on something else."
+names: [carbonize, relax, denied]
 
 carbonize:
   icon: Petrify.png
