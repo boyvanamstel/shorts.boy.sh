@@ -34,3 +34,8 @@ group :development do
   gem "autoprefixer-rails"
   gem "rouge"
 end
+
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "racc"
