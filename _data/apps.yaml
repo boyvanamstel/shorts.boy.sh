@@ -21,8 +21,8 @@ relax:
 denied:
   icon: Denied.png
   alt: "Denied's app icon"
-  link: https://www.denied.app
+  link: https://www.dangercove.com/denied
   title: Denied 
   subtitle: Skips terrible music
-  get: https://www.denied.app/get
+  get: https://www.dangercove.com/denied/get
   description: "Denied saves your ears from Nickelback or any other band, song or album. It sees what you're playing and automatically skips songs that you dislike."
