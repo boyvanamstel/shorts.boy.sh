@@ -16,7 +16,7 @@
       {% endif %}
       <a href="{{ site.baseurl }}/{{ post.url | remove_first: '/' }}" class="u-url">
         <aside class="dates">
-          <time datetime="{{ post.date }}" class="dt-published">→ {{ post.date | date:"%-I:%M %p, %b %-d" }}</time>
+          <time datetime="{{ post.date }}" class="dt-published">→ {{ post.date | date:"%-I:%M %p, %b %-d '%y" }}</time>
         </aside>
       </a>
     </article>
